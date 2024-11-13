@@ -1,0 +1,45 @@
+.App {
+  text-align: center;
+}
+.nft-container {
+  display: flex; /* Use flexbox to align items horizontally */
+  flex-wrap: wrap; /* Allow wrapping of NFTs to the next line */
+  justify-content: space-around; /* Distribute NFTs with equal space around them */
+  gap: 20px; /* Space between items */
+}
+
+.nft-item {
+  display: flex;
+  flex-direction: column; /* Stack contents (image and button) vertically within each item */
+  align-items: center; /* Center content horizontally within each NFT item */
+  width: 30%; /* Control width of each NFT item, 3 items per row */
+  max-width: 300px; /* Set maximum width of each item */
+  text-align: center; /* Center text */
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Add shadow */
+  margin-bottom: 20px; /* Space at the bottom of each NFT item */
+}
+
+.nft-image {
+  width: 100%; /* Make image responsive to container width */
+  max-height: 200px; /* Limit image height */
+  object-fit: contain; /* Maintain aspect ratio */
+  border-radius: 5px;
+  margin-bottom: 10px; /* Space between image and button */
+}
+
+button {
+  margin-top: 10px;
+  padding: 8px 12px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
