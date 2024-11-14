@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { useConnection, useWallet } from '@solana/wallet-adapter-react';
 import NftItem from './NftItem';
-import { getnft } from "../store/get.nft";
+import { getnft } from "../utils/get.nft";
 
 const NftList = () => {
     const { connection } = useConnection();

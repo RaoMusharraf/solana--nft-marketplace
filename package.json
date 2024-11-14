@@ -5,10 +5,13 @@
   "dependencies": {
     "@metaplex-foundation/mpl-token-metadata": "^3.3.0",
     "@metaplex-foundation/umi-bundle-defaults": "^0.9.2",
+    "@project-serum/anchor": "^0.26.0",
+    "@solana/spl-token": "^0.4.9",
     "@solana/wallet-adapter-react": "^0.15.35",
     "@solana/wallet-adapter-react-ui": "^0.9.35",
     "@solana/wallet-adapter-wallets": "^0.19.32",
     "@solana/web3.js": "^1.95.4",
+    "@tensor-hq/tensor-common": "^8.3.1",
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
